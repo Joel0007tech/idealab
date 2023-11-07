@@ -7,3 +7,9 @@ export const NavLinks = [
     {destination: 'Contact', text: "Contact Us"},
     {destination: 'Blog', text:"Blog & News"}
 ];
+
+export const company =[
+    {to:'Training', text:"Our Packages"},
+    {to:'About', text:"About Us"},
+    {to:'Contact', text:"Contact Us"}
+]
