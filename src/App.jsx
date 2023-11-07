@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from './components/Home'
 
 const App = () => {
   return (
-    <div className=' text-blue-700 text-center'>App</div>
+    <div>
+      <div className=' bg-slate-200 w-full h-[100vh]'><Home /></div>
+     
+      </div>
   )
 }
 
