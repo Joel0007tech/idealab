@@ -42,9 +42,9 @@ const Home = ({
           ))}
         </ul>
       </nav>
-      <div className='sm:block hidden'>
+      <div className='sm:block sm:w-full hidden'>
             <div className='flex p-3 justify-between'>
-              <BiCodeAlt className='text-2xl text-black relative float-right' onClick={()=> setOpen(!open)}/>
+              <BiCodeAlt className='text-2xl text-black relative float-left' onClick={()=> setOpen(!open)}/>
               </div>
               {open && (
                   <ul className='flex flex-col gap-6 p-10 mt-12 sm:mt-0' data-aos="fade-up" data-aos-duration="1000">
@@ -58,7 +58,7 @@ const Home = ({
               }
         </div>
       <section className="pt-3">
-        <h3 className="bg-black w-[1400px] sm:w-[500px] p-3 text-center m-auto font-bold text-white text-2xl">
+        <h3 className="bg-black w-[1400px] sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl">
           ICT For kids Training Programs
         </h3>
       </section>
