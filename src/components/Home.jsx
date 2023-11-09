@@ -3,20 +3,25 @@ import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import {IoMdPin} from "react-icons/io";
-import {GoMail} from "react-icons/go"
-import {BsTelephone} from "react-icons/bs"
+import {HiMail, HiPhone} from "react-icons/hi";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+
 
 const Home = ({
   cardLink="Learn More"
 }) => {
   return (
     <div>
-      <nav className="flex justify-around p-7">
-        <img src={logo} alt="logo" className="h-[70px] w-[100px]" />
+      <nav className="flex justify-around p-7" >
+        <img src={logo} alt="logo" className="h-[70px] w-[100px]"  data-aos="zoom-in"
+          data-aos-duration="2000"/>
         <ul
           className="flex justify-center gap-6 pt-4"
-          data-aos="fade-up"
-          data-aos-duration="1000"
+          data-aos="fade-down"
+          data-aos-duration="2000"
         >
           {NavLinks.map((lists) => (
             <li
@@ -124,7 +129,9 @@ const Home = ({
        </div>
      <div className="flex flex-col">
       <h3 className="text-3xl font-bold text-white text-center">OUR COURSES</h3>
-      <div className="flex flex-col gap-6 pt-3">
+      <div className="flex flex-col gap-6 pt-3" 
+      data-aos="fade-up"
+          data-aos-duration="1000">
       <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">
         Summary/ Holiday Classes for kids</a>
       <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">
@@ -137,19 +144,27 @@ const Home = ({
      <div className="flex flex-col">
       <h3 className="text-3xl font-bold text-white text-center">CONTACT US</h3>
       <div className="flex flex-col gap-6 pt-3">
-        <div className="flex">
-          <IoMdPin/>
-        <p className="text-white text-lg text-center">Zone B, Block 2, Shop 8, OAU <br/>
-      central market</p></div>
-      <div className="flex"><BsTelephone/></div>
-      <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px]">+234-813-662-1141</a>
-      <div className="flex"><GoMail/>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">mail</a></div>
+        <div className="flex gap-3" data-aos="fade-up"
+          data-aos-duration="1000">
+          <IoMdPin className="text-green-700 text-2xl"/>
+        <p className="text-white text-lg text-center relative bottom-1">Zone B, Block 2, Shop 8, OAU <br/>
+      central market</p>
+      </div>
+      <div className="flex gap-3" data-aos="fade-up" 
+      data-aos-duration="1000">
+        <HiPhone className="text-green-700 text-2xl"/>
+      <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1">+234-813-662-1141</a>
+      </div>
+      <div className="flex gap-3" data-aos="fade-up" 
+      data-aos-duration="1000">
+        <HiMail className=" text-green-700 text-2xl"/>
+      <a href="http://" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1">mail</a>
+      </div>
       </div>
       
      </div>
        </div>
-      
+      <p className="text-white text-center">© 2023 idealab. All rights reserved.</p>
       </footer>
     </div>
   );
