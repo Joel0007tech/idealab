@@ -2,7 +2,9 @@ import React from "react";
 import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
-
+import {IoMdPin} from "react-icons/io";
+import {GoMail} from "react-icons/go"
+import {BsTelephone} from "react-icons/bs"
 
 const Home = ({
   cardLink="Learn More"
@@ -77,7 +79,7 @@ const Home = ({
        <div className="flex flex-col">
         <div className="flex">
           <div className="flex gap-5">
-            <input type="text" name="" id="" className=" p-1 pr-44 pl-44 border rounded"/>
+            <input type="text" name="" id="" className=" p-1 w-[500px] border rounded"/>
             <a href="http://" className="text-black bg-white border 
             rounded pl-7 pr-7 p-1 pt-4 text-md">Search</a>
           </div>
@@ -94,7 +96,7 @@ const Home = ({
           </div>  
         </div>
        </div>
-       <div className="flex pt-14 p-14 gap-9 justify-center">
+       <div className="flex pt-14 p-14 gap-9 justify-between">
        <img src={logo} alt="logo" className="h-[120px] w-[130px]" />
        <div className="flex flex-col">
        <h3 className="text-3xl font-bold text-white text-center">THE COMPANY</h3>
@@ -135,10 +137,14 @@ const Home = ({
      <div className="flex flex-col">
       <h3 className="text-3xl font-bold text-white text-center">CONTACT US</h3>
       <div className="flex flex-col gap-6 pt-3">
-      <p className="text-white text-lg text-center">Zone B, Block 2, Shop 8, OAU <br/>
-      central market</p>
+        <div className="flex">
+          <IoMdPin/>
+        <p className="text-white text-lg text-center">Zone B, Block 2, Shop 8, OAU <br/>
+      central market</p></div>
+      <div className="flex"><BsTelephone/></div>
       <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px]">+234-813-662-1141</a>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">mail</a>
+      <div className="flex"><GoMail/>
+      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">mail</a></div>
       </div>
       
      </div>
