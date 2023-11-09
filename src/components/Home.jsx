@@ -44,7 +44,7 @@ const Home = ({
       </nav>
       <div className='sm:block hidden'>
             <div className='flex p-3 justify-between'>
-              <BiCodeAlt className='text-2xl text-white relative float-right' onClick={()=> setOpen(!open)}/>
+              <BiCodeAlt className='text-2xl text-black relative float-right' onClick={()=> setOpen(!open)}/>
               </div>
               {open && (
                   <ul className='flex flex-col gap-6 p-10 mt-12 sm:mt-0' data-aos="fade-up" data-aos-duration="1000">
@@ -101,9 +101,9 @@ const Home = ({
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col">
           <div className="flex gap-5 sm:flex sm:flex-col">
-            <input type="text" name="" id="" className=" p-1 w-[500px] border rounded"/>
+            <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] border rounded"/>
             <a href="http://" className="text-black bg-white border 
-            rounded pl-7 pr-7 p-1 pt-4 text-md">Search</a>
+            rounded pl-7 pr-7 p-1 pt-4 text-md sm:w-[100px] sm:m-auto">Search</a>
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col">
           <div className="flex gap-6 sm:flex sm:flex-col">
