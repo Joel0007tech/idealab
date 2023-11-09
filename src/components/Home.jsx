@@ -9,15 +9,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
-
-
-
 const Home = ({
   cardLink="Learn More"
 }) => {
 
   const [open, setOpen] = useState(null);
-  
+
   return (
     <div>
       <nav className="flex justify-around p-7 sm:hidden" >
@@ -61,13 +58,13 @@ const Home = ({
               }
         </div>
       <section className="pt-3">
-        <h3 className="bg-black w-[1400px] p-3 text-center m-auto font-bold text-white text-2xl">
+        <h3 className="bg-black w-[1400px] sm:w-[500px] p-3 text-center m-auto font-bold text-white text-2xl">
           ICT For kids Training Programs
         </h3>
       </section>
-      <section className="flex justify-center p-7">
+      <section className="flex justify-center p-7 ">
         <div className="flex flex-col gap-5">
-          <div className="flex gap-6">
+          <div className="flex gap-6 sm:flex sm:flex-col">
             <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
@@ -84,7 +81,7 @@ const Home = ({
              <a href="http://">{cardLink}</a>
             </div>
           </div>
-          <div className="flex gap-6">
+          <div className="flex gap-6 sm:flex sm:flex-col">
             <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Online Video Courses</h3>
              <a href="http://">{cardLink}</a>
@@ -102,14 +99,14 @@ const Home = ({
       </section>
       <footer className="bg-blue-900 p-20 bottom-0 w-full">
        <div className="flex flex-col">
-        <div className="flex">
-          <div className="flex gap-5">
+        <div className="flex sm:flex sm:flex-col">
+          <div className="flex gap-5 sm:flex sm:flex-col">
             <input type="text" name="" id="" className=" p-1 w-[500px] border rounded"/>
             <a href="http://" className="text-black bg-white border 
             rounded pl-7 pr-7 p-1 pt-4 text-md">Search</a>
           </div>
-         <div className="flex flex-col pl-8 relative bottom-7">
-          <div className="flex gap-6">
+         <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col">
+          <div className="flex gap-6 sm:flex sm:flex-col">
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold">Home</a>
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold">Our Courses</a>
             <a href="http://" className=" text-gray-500 text-lg font-semibold">Training Packages</a>
@@ -121,7 +118,7 @@ const Home = ({
           </div>  
         </div>
        </div>
-       <div className="flex pt-14 p-14 gap-9 justify-between">
+       <div className="flex pt-14 p-14 gap-9 justify-between sm:flex sm:flex-col">
        <img src={logo} alt="logo" className="h-[120px] w-[130px]" />
        <div className="flex flex-col">
        <h3 className="text-3xl font-bold text-white text-center">THE COMPANY</h3>
