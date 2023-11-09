@@ -1,21 +1,26 @@
-import React from "react";
+import {React, useState} from "react";
 import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import {IoMdPin} from "react-icons/io";
 import {HiMail, HiPhone} from "react-icons/hi";
+import {BiCodeAlt} from "react-icons/bi";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
 
 
+
 const Home = ({
   cardLink="Learn More"
 }) => {
+
+  const [open, setOpen] = useState(null);
+  
   return (
     <div>
-      <nav className="flex justify-around p-7" >
+      <nav className="flex justify-around p-7 sm:hidden" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
         <ul
@@ -40,6 +45,21 @@ const Home = ({
           ))}
         </ul>
       </nav>
+      <div className='sm:block hidden'>
+            <div className='flex p-3 justify-between'>
+              <BiCodeAlt className='text-2xl text-white relative float-right' onClick={()=> setOpen(!open)}/>
+              </div>
+              {open && (
+                  <ul className='flex flex-col gap-6 p-10 mt-12 sm:mt-0' data-aos="fade-up" data-aos-duration="1000">
+                  {NavLinks.map((lists) => (
+                 <li key={lists} className='text-white hover:text-green-500 text-center'>
+                  <ScrollLink to={lists.destination} className=' cursor-pointer' smooth={true} duration={500}>{lists.text}</ScrollLink>
+                 </li> )
+                  )}
+              </ul>
+                )
+              }
+        </div>
       <section className="pt-3">
         <h3 className="bg-black w-[1400px] p-3 text-center m-auto font-bold text-white text-2xl">
           ICT For kids Training Programs
