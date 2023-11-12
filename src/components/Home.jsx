@@ -2,6 +2,9 @@ import {React, useState} from "react";
 import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
+import firstImage from "../assets/first idealab.jpg";
+import secondImage from "../assets/online class.jpg";
+import thirdImage from "../assets/pressing computer.jpg"
 import {IoMdPin} from "react-icons/io";
 import {HiMail, HiPhone} from "react-icons/hi";
 import {BiCodeAlt} from "react-icons/bi";
@@ -62,36 +65,42 @@ const Home = ({
           ICT For kids Training Programs
         </h3>
       </section>
-      <section className="flex justify-center p-7 ">
+      <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
+             <img src={firstImage} alt="summer"  className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Weekend/ Saturday<br/>
              Classes</h3>
+             <img src={secondImage} alt="weekend" className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Evening/ After School<br/>
               Classes</h3>
+              <img src={thirdImage} alt="evening"  className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">Online Video Courses</h3>
+             <img src={thirdImage} alt="online"  className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">live online training</h3>
+             <img src={firstImage} alt="live"  className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-5 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
              <h3 className="text-2xl text-black font-bold">School ICT Seminars</h3>
+             <img src={secondImage} alt="ict"  className=" border rounded-3xl"/>
              <a href="http://">{cardLink}</a>
             </div>
           </div>
