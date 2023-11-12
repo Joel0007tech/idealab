@@ -118,19 +118,20 @@ const Home = ({
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col">
           <div className="flex gap-5 sm:flex sm:flex-col">
-            <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] border rounded"/>
+            <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
             <a href="http://" className="text-black bg-white border 
-            rounded pl-7 pr-7 p-1 pt-4 text-md sm:w-[100px] sm:m-auto">Search</a>
+            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 text-md sm:mb-10 sm:pb-4 sm:w-[100px] sm:m-auto">Search</a>
           </div>
-         <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col">
+         <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center">
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold">Home</a>
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold">Our Courses</a>
-            <a href="http://" className=" text-gray-500 text-lg font-semibold">Training Packages</a>
-            <a href="http://" className="hover:text-red-800 text-lg font-semibold text-white">About Us</a>
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold">Contact Us</a>
+            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Home</a>
+            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Our Courses</a>
+            <a href="http://" className=" text-gray-500 text-lg font-semibold sm:text-sm">Training Packages</a>
+            <a href="http://" className="hover:text-red-800 text-lg font-semibold text-white sm:text-sm">About Us</a>
+            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Contact Us</a>
           </div>
-          <a href="http://" className=" text-white hover:text-red-800 text-center text-lg font-semibold relative top-8">
+          <a href="http://" className=" text-white hover:text-red-800 text-center text-lg
+           font-semibold relative top-8 sm:text-sm sm:right-14">
             Blog & News</a>  
           </div>  
         </div>
@@ -138,7 +139,7 @@ const Home = ({
        <div className="flex pt-14 p-14 gap-9 justify-between sm:flex sm:flex-col">
        <img src={logo} alt="logo" className="h-[120px] w-[130px]" />
        <div className="flex flex-col">
-       <h3 className="text-3xl font-bold text-white text-center">THE COMPANY</h3>
+       <h3 className="text-3xl font-bold text-white text-center sm:text-lg">THE COMPANY</h3>
        <ul
           className="flex flex-col justify-center gap-6 pt-4"
           data-aos="fade-up"
@@ -147,7 +148,7 @@ const Home = ({
           {company.map((lists) => (
             <li
               key={lists}
-              className="text-green-500 text-center font-semibold hover:underline text-[19px]"
+              className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm"
             >
               <ScrollLink
                 to={lists.destination}
@@ -162,37 +163,37 @@ const Home = ({
         </ul>
        </div>
      <div className="flex flex-col">
-      <h3 className="text-3xl font-bold text-white text-center">OUR COURSES</h3>
+      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">OUR COURSES</h3>
       <div className="flex flex-col gap-6 pt-3" 
       data-aos="fade-up"
           data-aos-duration="1000">
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">
+      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Summary/ Holiday Classes for kids</a>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">
+      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Weekend/ Saturday Classes</a>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px]">
+      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Evening/ After School Classes</a>
       </div>
       
      </div>
      <div className="flex flex-col">
-      <h3 className="text-3xl font-bold text-white text-center">CONTACT US</h3>
+      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">CONTACT US</h3>
       <div className="flex flex-col gap-6 pt-3">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
           <IoMdPin className="text-green-700 text-2xl"/>
-        <p className="text-white text-lg text-center relative bottom-1">Zone B, Block 2, Shop 8, OAU <br/>
+        <p className="text-white text-lg text-center relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiPhone className="text-green-700 text-2xl"/>
-      <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1">+234-813-662-1141</a>
+      <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1 sm:text-sm">+234-813-662-1141</a>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiMail className=" text-green-700 text-2xl"/>
-      <a href="http://" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1">mail</a>
+      <a href="http://" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1 sm:text-sm">mail</a>
       </div>
       </div>
       
