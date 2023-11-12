@@ -68,40 +68,46 @@ const Home = ({
       <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
              <img src={firstImage} alt="summer"  className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+             <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Weekend/ Saturday<br/>
              Classes</h3>
              <img src={secondImage} alt="weekend" className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+             <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Evening/ After School<br/>
               Classes</h3>
               <img src={thirdImage} alt="evening"  className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+              <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Online Video Courses</h3>
              <img src={thirdImage} alt="online"  className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+             <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">live online training</h3>
              <img src={firstImage} alt="live"  className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+             <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[3px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-lg">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">School ICT Seminars</h3>
              <img src={secondImage} alt="ict"  className=" border rounded-3xl"/>
-             <a href="http://">{cardLink}</a>
+             <p className="m-auto">______________</p>
+             <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
           </div>
         </div>
