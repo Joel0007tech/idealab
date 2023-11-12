@@ -123,7 +123,7 @@ const Home = ({
             rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 text-md sm:mb-10 sm:pb-4 sm:w-[100px] sm:m-auto">Search</a>
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center">
-          <div className="flex gap-6 sm:flex sm:flex-col">
+          <div className="flex gap-6 sm:flex sm:flex-col sm:m-auto">
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Home</a>
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Our Courses</a>
             <a href="http://" className=" text-gray-500 text-lg font-semibold sm:text-sm">Training Packages</a>
@@ -131,7 +131,7 @@ const Home = ({
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Contact Us</a>
           </div>
           <a href="http://" className=" text-white hover:text-red-800 text-center text-lg
-           font-semibold relative top-8 sm:text-sm sm:right-14">
+           font-semibold relative top-8 sm:text-sm sm:right-4">
             Blog & News</a>  
           </div>  
         </div>
@@ -181,8 +181,8 @@ const Home = ({
       <div className="flex flex-col gap-6 pt-3">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
-          <IoMdPin className="text-green-700 text-2xl"/>
-        <p className="text-white text-lg text-center relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
+          <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
+        <p className="text-white 2xl:text-lg text-center 2xl:relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
