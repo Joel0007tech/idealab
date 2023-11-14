@@ -183,19 +183,19 @@ const Home = ({
       <div className="flex flex-col gap-6 pt-3">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
-          {/* <IoMdPin className="text-green-700 text-2xl sm:text-md"/> */}
+          <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
         <p className="text-white 2xl:text-lg text-center 2xl:relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
-        {/* <HiPhone className="text-green-700 text-2xl"/> */}
-      <a href="wa.me/2347064289990" className="text-white font-semibold
+        <HiPhone className="text-green-700 text-2xl"/>
+      <a href="wa.me/2347064289990" className="text-white font-normal
        hover:underline text-[19px] relative bottom-1 sm:text-sm">+234-813-662-1141</a>
       </div>
       <div className="flex gap-2" data-aos="fade-up" 
       data-aos-duration="1000">
-        {/* <HiMail className=" text-green-700 text-3xl"/> */}
+        <HiMail className=" text-green-700 text-3xl"/>
       <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm">
         idealabacademy@gmail.com
         </a>
