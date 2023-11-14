@@ -23,6 +23,7 @@ const Home = ({
       <nav className="flex justify-around p-7 sm:hidden" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
+          <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea<span className="text-white font-extrabold">Lab</span></p>
         <ul
           className="flex justify-center gap-6 pt-4"
           data-aos="fade-down"
