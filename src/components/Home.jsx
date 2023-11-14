@@ -123,13 +123,13 @@ const Home = ({
       </section>
       <footer className="bg-blue-900 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600">
        <div className="flex flex-col">
-        <div className="flex sm:flex sm:flex-col">
-          <div className="flex gap-5 sm:flex sm:flex-col">
+        <div className="flex sm:flex sm:flex-col sm:pt-4">
+          <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">
             <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
             <a href="http://" className="text-black bg-white border w-[130px] text-center pt-3
-            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4">Search</a>
+            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 sm:m-auto">Search</a>
           </div>
-         <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center">
+         <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center sm:pt-16">
           <div className="flex gap-6 sm:flex sm:flex-col sm:m-auto">
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Home</a>
             <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Our Courses</a>
@@ -144,7 +144,7 @@ const Home = ({
         </div>
        </div>
        <div className="flex pt-14 2xl:p-14 gap-9 justify-between sm:flex sm:flex-col">
-       <img src={logo} alt="logo" className="h-[120px] w-[130px]" />
+       <img src={logo} alt="logo" className="h-[120px] w-[130px] sm:m-auto"/>
        <div className="flex flex-col sm:flex sm:flex-col">
        <h3 className="text-3xl font-bold text-white text-center sm:text-lg">THE COMPANY</h3>
        <ul
@@ -185,7 +185,7 @@ const Home = ({
      </div>
      <div className="flex flex-col">
       <h3 className="text-3xl font-bold text-white text-center sm:text-lg">CONTACT US</h3>
-      <div className="flex flex-col gap-6 pt-3">
+      <div className="flex flex-col gap-6 pt-3 sm:flex sm:flex-col sm:justify-center">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
           <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
