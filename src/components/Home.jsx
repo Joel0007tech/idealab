@@ -208,7 +208,7 @@ const Home = ({
       <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiPhone className="text-green-700 text-2xl"/>
-      <a href=" https://wa.me/+2348136621141?text=Hello%20there!" className="text-white font-normal
+      <a href=" https://wa.me/+2348136621141?text=Hello%20there!,my ame is____" className="text-white font-normal
        hover:underline text-[19px] relative bottom-1 sm:text-sm sm:relative sm:top-1" target="_blank">+234-813-662-1141</a>
       </div>
       <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
