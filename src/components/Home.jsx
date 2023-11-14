@@ -73,21 +73,27 @@ const Home = ({
       <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
+             data-aos="flip-down"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
              <img src={firstImage} alt="summer"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
+             data-aos="flip-down"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">Weekend/ Saturday<br/>
              Classes</h3>
              <img src={secondImage} alt="weekend" className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
+             data-aos="flip-down"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">Evening/ After School<br/>
               Classes</h3>
               <img src={thirdImage} alt="evening"  className=" border rounded-3xl"/>
@@ -96,7 +102,9 @@ const Home = ({
             </div>
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl"
+             data-aos="flip-up"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">Languages</h3>
              <img src={thirdImage} alt="online"  className=" border rounded-3xl"/>
              <p className="m-auto">✔ English</p>
@@ -106,13 +114,17 @@ const Home = ({
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
+             data-aos="flip-up"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">live online training</h3>
              <img src={firstImage} alt="live"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
+             data-aos="flip-up"
+          data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">School ICT Seminars</h3>
              <img src={secondImage} alt="ict"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
@@ -125,9 +137,9 @@ const Home = ({
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col sm:pt-4">
           <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">
-            <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
-            <a href="http://" className="text-black bg-white border w-[130px] text-center pt-3
-            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 sm:m-auto">Search</a>
+            <input type="text" name="" id="" className="p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
+            <a href="http://" className="text-black bg-white border w-[130px] text-center
+            rounded pl-7 pr-7 p-1 pt-4 sm:pt-3 sm:p-3 sm:m-auto hover:text-white hover:bg-green-600 hover:border-none">Search</a>
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center sm:pt-16">
           <div className="flex gap-6 sm:flex sm:flex-col sm:m-auto">
@@ -185,21 +197,21 @@ const Home = ({
      </div>
      <div className="flex flex-col">
       <h3 className="text-3xl font-bold text-white text-center sm:text-lg">CONTACT US</h3>
-      <div className="flex flex-col gap-6 pt-3 sm:flex sm:flex-col sm:justify-center">
-        <div className="flex gap-3" data-aos="fade-up"
+      <div className="flex flex-col gap-6 pt-3 sm:flex sm:flex-col">
+        <div className="flex gap-3 sm:m-auto" data-aos="fade-up"
           data-aos-duration="1000">
           <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
         <p className="text-white 2xl:text-lg text-center 2xl:relative 2xl:bottom-1 sm:text-sm
         sm:relative sm:top-1">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
-      <div className="flex gap-3" data-aos="fade-up" 
+      <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiPhone className="text-green-700 text-2xl"/>
       <a href="wa.me/2347064289990" className="text-white font-normal
        hover:underline text-[19px] relative bottom-1 sm:text-sm sm:relative sm:top-1">+234-813-662-1141</a>
       </div>
-      <div className="flex gap-3" data-aos="fade-up" 
+      <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiMail className=" text-green-700 text-3xl"/>
       <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
