@@ -23,7 +23,8 @@ const Home = ({
       <nav className="flex justify-around p-7 sm:hidden" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
-          <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea<span className="text-white font-extrabold">Lab</span></p>
+          <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea
+          <span className="text-white font-extrabold">Lab</span></p>
         <ul
           className="flex justify-center gap-6 pt-4"
           data-aos="fade-down"
@@ -50,7 +51,7 @@ const Home = ({
             <div className='flex p-3 justify-between'>
             <img src={logo} alt="logo" className="h-[40px] w-[60px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
-           <p className="text-yellow-300 font-bold relative top-4 right-20 text-lg">idea<span className="text-white font-bold">Lab</span></p>
+           <p className="text-yellow-300 font-bold relative top-4 right-24 text-lg">idea<span className="text-white font-bold">Lab</span></p>
               <AiOutlineMenu className='text-2xl text-black relative float-left' onClick={()=> setOpen(!open)}/>
               </div>
               {open && (
@@ -73,21 +74,21 @@ const Home = ({
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">Summer/Holiday Classes <br/>
+             <h3 className="text-xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
              <img src={firstImage} alt="summer"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">Weekend/ Saturday<br/>
+             <h3 className="text-xl text-black font-bold">Weekend/ Saturday<br/>
              Classes</h3>
              <img src={secondImage} alt="weekend" className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">Evening/ After School<br/>
+             <h3 className="text-xl text-black font-bold">Evening/ After School<br/>
               Classes</h3>
               <img src={thirdImage} alt="evening"  className=" border rounded-3xl"/>
               <p className="m-auto">______________</p>
@@ -96,7 +97,7 @@ const Home = ({
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col">
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">Languages</h3>
+             <h3 className="text-xl text-black font-bold">Languages</h3>
              <img src={thirdImage} alt="online"  className=" border rounded-3xl"/>
              <p className="m-auto">✔ English</p>
              <p className="m-auto">✔ Hausa</p>
@@ -106,13 +107,13 @@ const Home = ({
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">live online training</h3>
+             <h3 className="text-xl text-black font-bold">live online training</h3>
              <img src={firstImage} alt="live"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">School ICT Seminars</h3>
+             <h3 className="text-xl text-black font-bold">School ICT Seminars</h3>
              <img src={secondImage} alt="ict"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
@@ -120,13 +121,13 @@ const Home = ({
           </div>
         </div>
       </section>
-      <footer className="bg-blue-900 p-20 bottom-0 w-full">
+      <footer className="bg-blue-900 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600">
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col">
           <div className="flex gap-5 sm:flex sm:flex-col">
             <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
             <a href="http://" className="text-black bg-white border w-[130px] text-center pt-3
-            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 text-md sm:mb-10 sm:pb-4 sm:w-[100px] sm:m-auto">Search</a>
+            rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4">Search</a>
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center">
           <div className="flex gap-6 sm:flex sm:flex-col sm:m-auto">
@@ -142,9 +143,9 @@ const Home = ({
           </div>  
         </div>
        </div>
-       <div className="flex pt-14 p-14 gap-9 justify-between sm:flex sm:flex-col">
+       <div className="flex pt-14 2xl:p-14 gap-9 justify-between sm:flex sm:flex-col">
        <img src={logo} alt="logo" className="h-[120px] w-[130px]" />
-       <div className="flex flex-col">
+       <div className="flex flex-col sm:flex sm:flex-col">
        <h3 className="text-3xl font-bold text-white text-center sm:text-lg">THE COMPANY</h3>
        <ul
           className="flex flex-col justify-center gap-6 pt-4"
@@ -183,24 +184,26 @@ const Home = ({
       
      </div>
      <div className="flex flex-col">
-      <h3 className="text-3xl font-bold text-white text-center sm:text-sm">CONTACT US</h3>
+      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">CONTACT US</h3>
       <div className="flex flex-col gap-6 pt-3">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
           <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
-        <p className="text-white 2xl:text-lg text-center 2xl:relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
+        <p className="text-white 2xl:text-lg text-center 2xl:relative 2xl:bottom-1 sm:text-sm
+        sm:relative sm:top-1">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiPhone className="text-green-700 text-2xl"/>
       <a href="wa.me/2347064289990" className="text-white font-normal
-       hover:underline text-[19px] relative bottom-1 sm:text-sm">+234-813-662-1141</a>
+       hover:underline text-[19px] relative bottom-1 sm:text-sm sm:relative sm:top-1">+234-813-662-1141</a>
       </div>
-      <div className="flex gap-2" data-aos="fade-up" 
+      <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiMail className=" text-green-700 text-3xl"/>
-      <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm">
+      <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
+      sm:relative sm:top-1">
         idealabacademy@gmail.com
         </a>
       </div>
@@ -208,7 +211,7 @@ const Home = ({
       
      </div>
        </div>
-      <p className="text-white text-center sm:text-sm">© 2023 idealab. All rights reserved.</p>
+      <p className="text-white text-center sm:text-sm relative top-12 sm:relative sm:top-0">© 2023 idealab. All rights reserved.</p>
       </footer>
     </div>
   );
