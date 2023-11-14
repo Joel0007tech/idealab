@@ -46,16 +46,17 @@ const Home = ({
           ))}
         </ul>
       </nav>
-      <div className='sm:block sm:w-full hidden'>
+      <div className='sm:block sm:w-full hidden overflow-hidden'>
             <div className='flex p-3 justify-between'>
             <img src={logo} alt="logo" className="h-[40px] w-[60px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
+           <p className="text-yellow-300 font-bold relative top-4 right-20 text-lg">idea<span className="text-white font-bold">Lab</span></p>
               <AiOutlineMenu className='text-2xl text-black relative float-left' onClick={()=> setOpen(!open)}/>
               </div>
               {open && (
                   <ul className='flex flex-col gap-6 p-10 mt-12 sm:mt-0 bg-black' data-aos="fade-left" data-aos-duration="1000">
                   {NavLinks.map((lists) => (
-                 <li key={lists} className='text-white hover:text-green-500 text-center'>
+                 <li key={lists} className='text-white hover:text-yellow-500 text-center'>
                   <ScrollLink to={lists.destination} className=' cursor-pointer' smooth={true} duration={500}>{lists.text}</ScrollLink>
                  </li> )
                   )}
@@ -64,7 +65,7 @@ const Home = ({
               }
         </div>
       <section className="pt-3">
-        <h3 className="bg-black w-[1400px] sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl">
+        <h3 className="bg-black w-[1400px] sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl sm:text-lg">
           ICT For kids Training Programs
         </h3>
       </section>
@@ -178,29 +179,32 @@ const Home = ({
       
      </div>
      <div className="flex flex-col">
-      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">CONTACT US</h3>
+      <h3 className="text-3xl font-bold text-white text-center sm:text-sm">CONTACT US</h3>
       <div className="flex flex-col gap-6 pt-3">
         <div className="flex gap-3" data-aos="fade-up"
           data-aos-duration="1000">
-          <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
+          {/* <IoMdPin className="text-green-700 text-2xl sm:text-md"/> */}
         <p className="text-white 2xl:text-lg text-center 2xl:relative bottom-1 sm:text-sm">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3" data-aos="fade-up" 
       data-aos-duration="1000">
-        <HiPhone className="text-green-700 text-2xl"/>
-      <a href="wa.me/2347064289990" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1 sm:text-sm">+234-813-662-1141</a>
+        {/* <HiPhone className="text-green-700 text-2xl"/> */}
+      <a href="wa.me/2347064289990" className="text-white font-semibold
+       hover:underline text-[19px] relative bottom-1 sm:text-sm">+234-813-662-1141</a>
       </div>
-      <div className="flex gap-3" data-aos="fade-up" 
+      <div className="flex gap-2" data-aos="fade-up" 
       data-aos-duration="1000">
-        <HiMail className=" text-green-700 text-2xl"/>
-      <a href="http://" className="text-white text-center font-semibold hover:underline text-[19px] relative bottom-1 sm:text-sm">mail</a>
+        {/* <HiMail className=" text-green-700 text-3xl"/> */}
+      <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm">
+        idealabacademy@gmail.com
+        </a>
       </div>
       </div>
       
      </div>
        </div>
-      <p className="text-white text-center">© 2023 idealab. All rights reserved.</p>
+      <p className="text-white text-center sm:text-sm">© 2023 idealab. All rights reserved.</p>
       </footer>
     </div>
   );
