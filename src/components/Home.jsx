@@ -72,21 +72,21 @@ const Home = ({
       <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Summer/Holiday Classes <br/>
              for Kids</h3>
              <img src={firstImage} alt="summer"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Weekend/ Saturday<br/>
              Classes</h3>
              <img src={secondImage} alt="weekend" className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">Evening/ After School<br/>
               Classes</h3>
               <img src={thirdImage} alt="evening"  className=" border rounded-3xl"/>
@@ -95,19 +95,23 @@ const Home = ({
             </div>
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col">
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8  bg-white rounded-2xl">
-             <h3 className="text-2xl text-black font-bold">Online Video Courses</h3>
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl">
+             <h3 className="text-2xl text-black font-bold">Languages</h3>
              <img src={thirdImage} alt="online"  className=" border rounded-3xl"/>
+             <p className="m-auto">✔ English</p>
+             <p className="m-auto">✔ Hausa</p>
+             <p className="m-auto">✔ Igbo</p>
+             <p className="m-auto">✔ Yoruba</p>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">live online training</h3>
              <img src={firstImage} alt="live"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-8 bg-white rounded-2xl">
+            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl">
              <h3 className="text-2xl text-black font-bold">School ICT Seminars</h3>
              <img src={secondImage} alt="ict"  className=" border rounded-3xl"/>
              <p className="m-auto">______________</p>
@@ -121,7 +125,7 @@ const Home = ({
         <div className="flex sm:flex sm:flex-col">
           <div className="flex gap-5 sm:flex sm:flex-col">
             <input type="text" name="" id="" className=" p-1 w-[500px] sm:w-[250px] sm:p-4 border rounded"/>
-            <a href="http://" className="text-black bg-white border 
+            <a href="http://" className="text-black bg-white border w-[130px] text-center pt-3
             rounded 2xl:pl-7 2xl:pr-7 p-1 2xl:pt-4 text-md sm:mb-10 sm:pb-4 sm:w-[100px] sm:m-auto">Search</a>
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center">
