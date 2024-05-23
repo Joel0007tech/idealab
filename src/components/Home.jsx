@@ -70,6 +70,18 @@ const Home = ({
           ICT For kids Training Programs
         </h3>
       </section>
+      <section className="pt-3 bg-slate-200">
+        <div className="text-center">
+          <h3 className="text-2xl font-bold">It is time to prepare your kids for the digital age</h3>
+          <h4 className="text-xl font-semibold">Empower the Next Generation of Creators and Problem-Solvers</h4>
+          <p className="leading-relaxed">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
+          next generation. We believe that skill acquisition and the traditional school system can go hand-in-hand.<br/> 
+          Currently, we offer courses like Python coding, HTML/CSS, Scratch coding, graphic design, Digital Art, Entrepreneurship,<br/>
+          Chess and monopoly, and creative writing. Our classes include weekend coding courses, holiday coding camps and STEM workshops
+          From the age of 5,<br/>
+          we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
+        </div> 
+        </section>
       <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
           <div className="flex gap-6 sm:flex sm:flex-col">
@@ -214,7 +226,7 @@ const Home = ({
       <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
         <HiMail className=" text-green-700 text-3xl"/>
-      <a href="http://" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
+      <a href="mailto:idealabacademy@gmail.com" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
       sm:relative sm:top-1">
         idealabacademy@gmail.com
         </a>
