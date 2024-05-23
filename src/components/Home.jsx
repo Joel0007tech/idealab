@@ -87,9 +87,12 @@ const Home = ({
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
            </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
             and Entrepreneurship</span></p>
-            <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Technology</h3>
+            <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Technology</h3>
+            <p className="text-md mt-1">Our first step is giving kids the tech skills required to be up to date in a fast changing world</p>
             <h3 className="font-semibold text-xl text-white bg-yellow-700 p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Innovation</h3>
+            <p className="text-md mt-1">We instill in our students the ability to harness their skills and use them to solve societal problems</p>
             <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
+            <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable them launch their innovation into profitable business</p>
         </div> 
         </section>
       <section className="flex justify-center p-7 bg-slate-200">
