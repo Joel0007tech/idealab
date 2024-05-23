@@ -74,12 +74,17 @@ const Home = ({
         <div className="text-center">
           <h3 className="text-2xl font-bold">It is time to prepare your kids for the digital age</h3>
           <h4 className="text-xl font-semibold">Empower the Next Generation of Creators and Problem-Solvers</h4>
-          <p className="leading-relaxed">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
+          <p className="leading-relaxed pt-2 text-md">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
           next generation. We believe that skill acquisition and the traditional school system can go hand-in-hand.<br/> 
           Currently, we offer courses like Python coding, HTML/CSS, Scratch coding, graphic design, Digital Art, Entrepreneurship,<br/>
           Chess and monopoly, and creative writing. Our classes include weekend coding courses, holiday coding camps and STEM workshops
           From the age of 5,<br/>
           we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
+          <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
+          <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
+           and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border rounded-md">Technology</span> 
+           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1">Innovation</span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1">
+            and Entrepreneurship</span></p>
         </div> 
         </section>
       <section className="flex justify-center p-7 bg-slate-200">
