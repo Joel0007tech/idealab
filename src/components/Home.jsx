@@ -82,9 +82,14 @@ const Home = ({
           we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
           <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
-           and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border rounded-md">Technology</span> 
-           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1">Innovation</span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1">
+           and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border rounded-md cursor-pointer">
+            Technology</span> 
+           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
+           </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
             and Entrepreneurship</span></p>
+            <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Technology</h3>
+            <h3 className="font-semibold text-xl text-white bg-yellow-700 p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Innovation</h3>
+            <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
         </div> 
         </section>
       <section className="flex justify-center p-7 bg-slate-200">
