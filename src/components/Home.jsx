@@ -94,6 +94,40 @@ const Home = ({
             <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
             <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable them launch their innovation into profitable business</p>
         </div> 
+        <p className="text-md mt-10 text-center italic">"Learning to code stretches your mind, and helps you think better. It creates a way of thinking about<br/> things that I think is helpful in all domains."<br/>
+         <span>---Bill Gates <br/>
+             Co-founder Microsoft---</span> 
+              </p>
+              <div className=" mt-10 p-9 bg-black w-fit m-auto">
+                <h5 className="text-white text-center text-xl">Why Idealab?</h5>
+                <div className="flex flex-row gap-4">
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-bl-2xl rounded-tr-2xl">
+                  <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
+                  <p>We believe that the main aim of learning to<br/> 
+                  code is to solve problems, so we take our students<br/> 
+                  through the five-step design thinking process<br/> Empathize, Define,
+                    Ideate, Prototype and Test<br/> which is a human-centred approach
+                    to innovation<br/> and problem-solving made popular by Stanford<br/> 
+                    University’s Design School.</p>
+                </div>
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-tl-2xl rounded-br-2xl">
+                  <h4 className="font-bold">PROJECT-BASED LEARNING</h4>
+                  <p>Our lessons connect what our students learn to <br/> 
+                 real-world scenarios. Students learn with the same<br/> 
+                 approach they will eventually use in their hobbies,<br/> 
+                 passions, and careers. This ingrains essential <br/>
+                 problem-solving techniques within them early on,<br/>drastically increasing their chances of success in
+                 <br/>whatever career they choose once their education<br/> has completed.</p>
+                </div>
+                </div>
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
+                  <h4 className="font-bold text-center">EXPERIENCED, AND FRIENDLY INSTRUCTORS</h4>
+                  <p className="text-center">All our instructors are STEM (Science, Technology, Engineering, Mathematics) graduates <br/> 
+                  who are passionate about what they do. Our work culture ensures that we attract fun-loving, <br/> 
+                  down-to-earth instructors who work to make learning fun, inspiring, and productive for our<br/>
+                   students.</p>
+                </div>
+              </div>
         </section>
       <section className="flex justify-center p-7 bg-slate-200">
         <div className="flex flex-col gap-5">
