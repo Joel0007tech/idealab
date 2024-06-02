@@ -21,7 +21,7 @@ const Home = ({
   return (
     <div>
       <nav className="flex justify-around p-7 sm:hidden" >
-        <img src={logo} alt="logo" className="h-[70px] w-[100px]"  data-aos="zoom-in"
+        <img src={logo} alt="logo" className="h-[70px] w-[100px]" data-aos="zoom-in"
           data-aos-duration="2000"/>
           <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea
           <span className="text-white font-extrabold">Lab</span></p>
@@ -192,7 +192,24 @@ const Home = ({
           </div>
         </div>
       </section>
-      <footer className="bg-blue-900 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600">
+      <section className="bg-green-900 border rounded-2xl w-fit m-auto p-10 mt-10 mb-10">
+          <h1 className="mb-5 font-bold text-white text-3xl">ABOUT US </h1>
+          <p className="leading-relaxed text-white">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
+           innovators, creators, and leaders. As educators and mentors, we saw first-hand the transformative power<br/>
+          of hands-on learning and the importance of developing in-demand skills at an early age. Driven by a mission<br/>
+          to make quality education accessible to all, we set out to build an engaging, affordable, and inclusive learning<br/>
+           environment that would inspire young minds to explore their interests and unlock their full potential.</p>
+           <h5 className="mt-10 text-white font-semibold text-center text-xl">Our Courses;</h5>
+           <div className=" grid grid-cols-3 gap-3 justify-center mt-5 ml-12">
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">HTML/CSS</p>
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">PYTHON</p>
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">SCRATCH CODING</p>
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">GRAPHIC DESIGN</p>
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">CHESS</p>
+           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">DIGITAL ART</p>
+           </div>
+      </section>
+      <footer className="bg-yellow-600 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600">
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col sm:pt-4">
           <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">
@@ -226,7 +243,7 @@ const Home = ({
           {company.map((lists) => (
             <li
               key={lists}
-              className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm"
+              className="text-green-900 text-center font-semibold hover:underline text-[19px] sm:text-sm"
             >
               <ScrollLink
                 to={lists.destination}
@@ -245,11 +262,11 @@ const Home = ({
       <div className="flex flex-col gap-6 pt-3" 
       data-aos="fade-up"
           data-aos-duration="1000">
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
+      <a href="http://" className="text-green-900 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Summary/ Holiday Classes for kids</a>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
+      <a href="http://" className="text-green-900 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Weekend/ Saturday Classes</a>
-      <a href="http://" className="text-green-500 text-center font-semibold hover:underline text-[19px] sm:text-sm">
+      <a href="http://" className="text-green-900 text-center font-semibold hover:underline text-[19px] sm:text-sm">
         Evening/ After School Classes</a>
       </div>
       
@@ -259,20 +276,20 @@ const Home = ({
       <div className="flex flex-col gap-6 pt-3 sm:flex sm:flex-col">
         <div className="flex gap-3 sm:m-auto" data-aos="fade-up"
           data-aos-duration="1000">
-          <IoMdPin className="text-green-700 text-2xl sm:text-md"/>
+          <IoMdPin className="text-green-900 text-2xl sm:text-md"/>
         <p className="text-white 2xl:text-lg text-center 2xl:relative 2xl:bottom-1 sm:text-sm
         sm:relative sm:top-1">Zone B, Block 2, Shop 8, OAU <br/>
       central market</p>
       </div>
       <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
-        <HiPhone className="text-green-700 text-2xl"/>
+        <HiPhone className="text-green-900 text-2xl"/>
       <a href=" https://wa.me/+2348136621141?text=Hello%20there!, my name is____" className="text-white font-normal
        hover:underline text-[19px] relative bottom-1 sm:text-sm sm:relative sm:top-1" target="_blank">+234-813-662-1141</a>
       </div>
       <div className="flex gap-3 sm:m-auto" data-aos="fade-up" 
       data-aos-duration="1000">
-        <HiMail className=" text-green-700 text-3xl"/>
+        <HiMail className="text-green-900 text-3xl"/>
       <a href="mailto:idealabacademy@gmail.com" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
       sm:relative sm:top-1">
         idealabacademy@gmail.com
