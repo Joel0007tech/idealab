@@ -1,6 +1,7 @@
 import {React, useState} from "react";
 import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
+import { Element } from 'react-scroll';
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import firstImage from "../assets/first idealab.jpg";
 import secondImage from "../assets/online class.jpg";
@@ -192,7 +193,7 @@ const Home = ({
           </div>
         </div>
       </section>
-      <section className="bg-green-900 border rounded-2xl w-fit m-auto p-10 mt-10 mb-10">
+      <Element className="bg-green-900 border rounded-2xl w-fit m-auto p-10 mt-10 mb-10" name="about">
           <h1 className="mb-5 font-bold text-white text-3xl">ABOUT US </h1>
           <p className="leading-relaxed text-white">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
            innovators, creators, and leaders. As educators and mentors, we saw first-hand the transformative power<br/>
@@ -208,8 +209,8 @@ const Home = ({
            <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">CHESS</p>
            <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">DIGITAL ART</p>
            </div>
-      </section>
-      <footer className="bg-yellow-600 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600">
+      </Element>
+      <Element className="bg-yellow-600 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col sm:pt-4">
           <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">
@@ -300,7 +301,7 @@ const Home = ({
      </div>
        </div>
       <p className="text-white text-center sm:text-sm relative top-12 sm:relative sm:top-0">© 2023 idealab. All rights reserved.</p>
-      </footer>
+      </Element>
     </div>
   );
 };
