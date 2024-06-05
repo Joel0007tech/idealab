@@ -91,23 +91,26 @@ const Home = ({
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
            </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
             and Entrepreneurship</span></p>
-            <div className="flex flex-col gap-3">
+            <div className="grid grid justify-center mt-5">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 w-fit m-auto">
               <img src={techImg} alt="tech-image" className=" w-64 h-48 m-auto"/>
               <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Technology</h3>
             <p className="text-md mt-1">Our first step is giving kids the tech skills required to be up to date in a fast changing world</p>
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 w-fit m-auto">
               <img src={innovasionImg} alt="innovationimage" className=" w-64 h-48 m-auto"/>
               <h3 className="font-semibold text-xl text-white bg-yellow-700 p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Innovation</h3>
             <p className="text-md mt-1">We instill in our students the ability to harness their skills and use them to solve societal problems</p>
             </div>
-            <div className="flex flex-col gap-3"> 
+            </div>
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 w-fit m-auto"> 
             <img src={entImg} alt="entrepreneurimage" className=" w-64 h-48 m-auto"/>
               <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
-            <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable them launch their innovation into profitable
+            <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable
+             them launch their<br/> innovation into profitable
              business</p>
              </div>
-        </div> 
+        </div>
         <p className="text-md mt-10 text-center italic">"Learning to code stretches your mind, and helps you think better. It creates a way of thinking about<br/> 
         things that I think is helpful in all domains."<br/>
          <span>---Bill Gates <br/>
