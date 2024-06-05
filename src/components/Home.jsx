@@ -6,6 +6,9 @@ import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import firstImage from "../assets/first idealab.jpg";
 import secondImage from "../assets/online class.jpg";
 import thirdImage from "../assets/pressing computer.jpg"
+import innovasionImg from "../assets/kids-technology.jpeg"
+import techImg from "../assets/OIP.jfif"
+import entImg from "../assets/R.jfif"
 import {IoMdPin} from "react-icons/io";
 import {HiMail, HiPhone} from "react-icons/hi";
 import {AiOutlineMenu} from "react-icons/ai";
@@ -72,6 +75,9 @@ const Home = ({
         </h3>
       </section>
       <section className="pt-3 bg-slate-200">
+        <img src={techImg} alt="techimage" />
+        <img src={innovasionImg} alt="innov" />
+        <img src={entImg} alt="entrepre" />
         <div className="text-center">
           <h3 className="text-2xl font-bold">It is time to prepare your kids for the digital age</h3>
           <h4 className="text-xl font-semibold">Empower the Next Generation of Creators and Problem-Solvers</h4>
