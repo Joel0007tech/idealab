@@ -217,24 +217,24 @@ const Home = ({
           </div>
         </div>
       </section>
-      <Element className="bg-green-900 border rounded-2xl w-fit m-auto p-10 mt-10 mb-10" name="about">
-          <h1 className="mb-5 font-bold text-white text-3xl">ABOUT US </h1>
-          <p className="leading-relaxed text-white">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
+      <Element className="w-fit m-auto p-10 mt-10 mb-10" name="about">
+          <h1 className="mb-5 font-bold text-black text-3xl">ABOUT US </h1>
+          <p className="leading-relaxed text-black font-semibold">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
            innovators, creators, and leaders. As educators and mentors, we saw first-hand the transformative power<br/>
           of hands-on learning and the importance of developing in-demand skills at an early age. Driven by a mission<br/>
           to make quality education accessible to all, we set out to build an engaging, affordable, and inclusive learning<br/>
            environment that would inspire young minds to explore their interests and unlock their full potential.</p>
-           <h5 className="mt-10 text-white font-semibold text-center text-xl">Our Courses;</h5>
+           <h5 className="mt-10 text-black font-semibold text-center text-xl">Our Courses;</h5>
            <div className=" grid grid-cols-3 gap-3 justify-center mt-5 ml-12">
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">HTML/CSS</p>
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">PYTHON</p>
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">SCRATCH CODING</p>
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">GRAPHIC DESIGN</p>
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">CHESS</p>
-           <p className="p-3 bg-white border rounded-md w-fit font-bold text-md pl-5 pr-5">DIGITAL ART</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">HTML/CSS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">PYTHON</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">SCRATCH CODING</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">GRAPHIC DESIGN</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">CHESS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">DIGITAL ART</p>
            </div>
       </Element>
-      <Element className="bg-yellow-600 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
+      <Element className="bg-slate-500 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col sm:pt-4">
           <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">
@@ -244,13 +244,13 @@ const Home = ({
           </div>
          <div className="flex flex-col pl-8 relative bottom-7 sm:flex sm:flex-col sm:justify-center sm:pt-16">
           <div className="flex gap-6 sm:flex sm:flex-col sm:m-auto">
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Home</a>
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Our Courses</a>
-            <a href="http://" className=" text-gray-500 text-lg font-semibold sm:text-sm">Training Packages</a>
-            <a href="http://" className="hover:text-red-800 text-lg font-semibold text-white sm:text-sm">About Us</a>
-            <a href="http://" className=" text-white hover:text-red-800 text-lg font-semibold sm:text-sm">Contact Us</a>
+            <a href="http://" className=" text-white hover:text-black text-lg font-semibold sm:text-sm">Home</a>
+            <a href="http://" className=" text-white hover:text-black text-lg font-semibold sm:text-sm">Our Courses</a>
+            <a href="http://" className=" text-black text-lg font-semibold sm:text-sm">Training Packages</a>
+            <a href="http://" className="hover:text-black text-lg font-semibold text-white sm:text-sm">About Us</a>
+            <a href="http://" className=" text-white hover:text-black text-lg font-semibold sm:text-sm">Contact Us</a>
           </div>
-          <a href="http://" className=" text-white hover:text-red-800 text-center text-lg
+          <a href="http://" className=" text-white hover:text-black text-center text-lg
            font-semibold relative top-8 sm:text-sm sm:right-4">
             Blog & News</a>  
           </div>  
