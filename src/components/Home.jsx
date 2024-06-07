@@ -99,7 +99,7 @@ const Home = ({
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
            </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
             and Entrepreneurship</span></p>
-            <div className="grid grid-cols-2 justify-center mt-5">
+            <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
             <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto">
               <img src={techImg} alt="tech-image" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Technology</h3>
@@ -126,7 +126,7 @@ const Home = ({
               </p>
               <div className="mt-10 p-9 bg-slate-500 w-full justify-center">
                 <h5 className="text-white text-center text-xl">Why Idealab?</h5>
-                <div className="flex flex-row gap-3 justify-center pt-4">
+                <div className="flex flex-row gap-3 justify-center pt-4 sm:flex sm:flex-col">
                 <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
                   <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
                   <p className="font-semibold">We believe that the main aim of learning to<br/> 
