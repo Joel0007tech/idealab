@@ -31,7 +31,7 @@ const Home = ({
 
   return (
     <div>
-      <nav className="flex justify-around p-7 sm:hidden" >
+      <nav className="flex justify-around p-7 sm:hidden bg-slate-300" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]" data-aos="zoom-in"
           data-aos-duration="2000"/>
           <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea
@@ -76,8 +76,8 @@ const Home = ({
                 )
               }
         </div>
-      <section className="pt-3">
-        <h3 className="bg-black w-[1400px] sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl sm:text-lg">
+      <section>
+        <h3 className="bg-black w-full sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl sm:text-lg">
           ICT For kids Training Programs
         </h3>
       </section>
@@ -93,7 +93,8 @@ const Home = ({
           we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
           <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
-           and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border rounded-md cursor-pointer">
+           and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
+            rounded-md cursor-pointer">
             Technology</span> 
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
            </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
@@ -123,12 +124,12 @@ const Home = ({
          <span>---Bill Gates <br/>
              Co-founder Microsoft---</span> 
               </p>
-              <div className=" mt-10 p-9 bg-black w-fit m-auto">
+              <div className="mt-10 p-9 bg-slate-500 w-full justify-center">
                 <h5 className="text-white text-center text-xl">Why Idealab?</h5>
-                <div className="flex flex-row gap-4">
-                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-bl-2xl rounded-tr-2xl">
-                  <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
-                  <p>We believe that the main aim of learning to<br/> 
+                <div className="flex flex-row">
+                <div className="flex flex-col p-5 bg-black gap-3 mt-4 border-black rounded-bl-2xl rounded-tr-2xl">
+                  <h4 className="font-bold text-white">DESIGN THINKING APPROACH</h4>
+                  <p className="text-white">We believe that the main aim of learning to<br/> 
                   code is to solve problems, so we take our students<br/> 
                   through the five-step design thinking process<br/> Empathize, Define,
                     Ideate, Prototype and Test<br/> which is a human-centred approach
@@ -136,22 +137,22 @@ const Home = ({
                     University’s Design School.</p>
                 </div>
                 <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-tl-2xl rounded-br-2xl">
-                  <h4 className="font-bold">PROJECT-BASED LEARNING</h4>
-                  <p>Our lessons connect what our students learn to <br/> 
+                  <h4 className="font-bold relative bottom-1">PROJECT-BASED LEARNING</h4>
+                  <p className="relative bottom-2 font-semibold">Our lessons connect what our students learn to <br/> 
                  real-world scenarios. Students learn with the same<br/> 
                  approach they will eventually use in their hobbies,<br/> 
                  passions, and careers. This ingrains essential <br/>
                  problem-solving techniques within them early on,<br/>drastically increasing their chances of success in
                  <br/>whatever career they choose once their education<br/> has completed.</p>
                 </div>
-                </div>
-                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl w-fit m-auto">
                   <h4 className="font-bold text-center">EXPERIENCED, AND FRIENDLY INSTRUCTORS</h4>
-                  <p className="text-center">All our instructors are STEM (Science, Technology, Engineering, Mathematics) graduates <br/> 
-                  who are passionate about what they do. Our work culture ensures that we attract fun-loving, <br/> 
-                  down-to-earth instructors who work to make learning fun, inspiring, and productive for our<br/>
+                  <p className="font-semibold">All our instructors are STEM (Science, Technology,<br/> Engineering, Mathematics) graduates
+                  who are<br/> passionate about what they do. Our work culture<br/> ensures that we attract fun-loving,
+                  down-to-earth<br/> instructors who work to make learning fun,<br/> inspiring, and productive for our
                    students.</p>
                 </div>
+              </div>
               </div>
         </section>
       <section className="flex justify-center p-7 bg-slate-200">
@@ -217,24 +218,24 @@ const Home = ({
           </div>
         </div>
       </section>
-      <Element className="w-fit m-auto p-10 mt-10 mb-10" name="about">
-          <h1 className="mb-5 font-bold text-black text-3xl">ABOUT US </h1>
-          <p className="leading-relaxed text-black font-semibold">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
+      <Element className="w-full bg-slate-500 m-auto p-10 mb-4" name="about">
+          <h1 className="mb-5 font-bold text-black text-3xl text-center">ABOUT US </h1>
+          <p className="leading-relaxed text-black font-semibold text-center">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
            innovators, creators, and leaders. As educators and mentors, we saw first-hand the transformative power<br/>
           of hands-on learning and the importance of developing in-demand skills at an early age. Driven by a mission<br/>
           to make quality education accessible to all, we set out to build an engaging, affordable, and inclusive learning<br/>
            environment that would inspire young minds to explore their interests and unlock their full potential.</p>
            <h5 className="mt-10 text-black font-semibold text-center text-xl">Our Courses;</h5>
-           <div className=" grid grid-cols-3 gap-3 justify-center mt-5 ml-12">
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">HTML/CSS</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">PYTHON</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">SCRATCH CODING</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">GRAPHIC DESIGN</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">CHESS</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-slate-500">DIGITAL ART</p>
+           <div className="mt-5 gap-3 flex flex-row justify-center">
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">HTML/CSS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">PYTHON</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">SCRATCH CODING</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">GRAPHIC DESIGN</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">CHESS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">DIGITAL ART</p>
            </div>
       </Element>
-      <Element className="bg-slate-500 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
+      <Element className="bg-slate-400 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
        <div className="flex flex-col">
         <div className="flex sm:flex sm:flex-col sm:pt-4">
           <div className="flex gap-5 sm:flex sm:flex-col sm:m-auto">

@@ -4,7 +4,7 @@ import Home from './components/Home'
 const App = () => {
   return (
     <div>
-      <div className='bg-slate-500 w-full h-[100vh]'>
+      <div className='w-full h-[100vh]'>
         <Home />
         </div>
       </div>
