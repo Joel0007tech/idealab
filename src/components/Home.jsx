@@ -83,8 +83,8 @@ const Home = ({
       </section>
       <section className="pt-3 bg-slate-200">
         <div className="text-center">
-          <h3 className="text-2xl font-bold sm:font-semibold sm:text-lg">It is time to prepare your kids for the digital age</h3>
-          <h4 className="text-xl font-semibold sm:text-md">Empower the Next Generation of Creators and Problem-Solvers</h4>
+          <h3 className="text-2xl font-bold sm:font-semibold sm:text-md">It is time to prepare your kids for the digital age</h3>
+          <h4 className="text-xl font-semibold sm:text-lg">Empower the Next Generation of Creators and Problem-Solvers</h4>
           <p className="leading-relaxed pt-2 text-md sm:text-sm">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
           next generation. We believe that skill acquisition and the traditional school system can go hand-in-hand.<br/> 
           Currently, we offer courses like Python coding, HTML/CSS, Scratch coding, graphic design, Digital Art, Entrepreneurship,<br/>
@@ -102,18 +102,18 @@ const Home = ({
             sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             and Entrepreneurship</span></p>
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-96">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-80">
               <img src={techImg} alt="tech-image" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Technology</h3>
             <p className="text-md mt-1">Our first step is giving kids the tech skills required to be up to date in a fast changing world</p>
             </div>
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 pb-4 w-fit m-auto sm:w-96">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 pb-4 w-fit m-auto sm:w-80">
               <img src={innovasionImg} alt="innovationimage" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl text-white bg-yellow-700 p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Innovation</h3>
             <p className="text-md mt-1">We instill in our students the ability to harness their skills and use them to solve societal problems</p>
             </div>
             </div>
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-96"> 
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-80"> 
             <img src={entImg} alt="entrepreneurimage" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
             <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable
