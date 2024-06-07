@@ -94,10 +94,10 @@ const Home = ({
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
           <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
            and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
-            rounded-md cursor-pointer">
+            rounded-md cursor-pointer sm:p-3 sm:mt-3">
             Technology</span> 
-           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
-           </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
+           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-3 sm:mt-3">Innovation
+           </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-3 sm:mt-3">
             and Entrepreneurship</span></p>
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
             <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto">
