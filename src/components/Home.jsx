@@ -126,7 +126,7 @@ const Home = ({
               </p>
               <div className="mt-10 p-9 bg-slate-500 w-full justify-center">
                 <h5 className="text-white text-center text-xl">Why Idealab?</h5>
-                <div className="flex flex-row gap-3 justify-center">
+                <div className="flex flex-row gap-3 justify-center pt-4">
                 <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
                   <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
                   <p className="font-semibold">We believe that the main aim of learning to<br/> 
@@ -155,10 +155,10 @@ const Home = ({
               </div>
               </div>
         </section>
-      <Element className="flex justify-center p-7 bg-slate-200 m-auto" name="Training">
-        <h3 className="text-black font-bold text-2xl ">OUR PACKAGES</h3>
-        <div className="flex flex-col gap-5 pt-20">
-          <div className="flex gap-6 sm:flex sm:flex-col">
+      <Element className="p-7 bg-slate-200" name="Training">
+        <h3 className="text-black font-bold text-2xl text-center">OUR PACKAGES</h3>
+        <div className="flex flex-col gap-5 pt-10">
+          <div className="flex gap-6 sm:flex sm:flex-col justify-center">
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
              data-aos="flip-down"
           data-aos-duration="2000">
@@ -187,7 +187,7 @@ const Home = ({
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
             </div>
           </div>
-          <div className="flex gap-6 sm:flex sm:flex-col">
+          <div className="flex gap-6 sm:flex sm:flex-col justify-center">
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl"
              data-aos="flip-up"
           data-aos-duration="2000">
