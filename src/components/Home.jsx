@@ -31,7 +31,7 @@ const Home = ({
 
   return (
     <div>
-      <nav className="flex justify-around p-7 sm:hidden bg-slate-300" >
+      <nav className="flex justify-around p-7 sm:hidden bg-slate-300 sm:bg-slate-300" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]" data-aos="zoom-in"
           data-aos-duration="2000"/>
           <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea
@@ -97,7 +97,7 @@ const Home = ({
             rounded-md cursor-pointer">
             Technology</span> 
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">Innovation
-           </span><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
+           </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer">
             and Entrepreneurship</span></p>
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
             <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto">
