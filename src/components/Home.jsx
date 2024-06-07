@@ -126,37 +126,38 @@ const Home = ({
               </p>
               <div className="mt-10 p-9 bg-slate-500 w-full justify-center">
                 <h5 className="text-white text-center text-xl">Why Idealab?</h5>
-                <div className="flex flex-row">
-                <div className="flex flex-col p-5 bg-black gap-3 mt-4 border-black rounded-bl-2xl rounded-tr-2xl">
-                  <h4 className="font-bold text-white">DESIGN THINKING APPROACH</h4>
-                  <p className="text-white">We believe that the main aim of learning to<br/> 
+                <div className="flex flex-row gap-3 justify-center">
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
+                  <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
+                  <p className="font-semibold">We believe that the main aim of learning to<br/> 
                   code is to solve problems, so we take our students<br/> 
                   through the five-step design thinking process<br/> Empathize, Define,
                     Ideate, Prototype and Test<br/> which is a human-centred approach
                     to innovation<br/> and problem-solving made popular by Stanford<br/> 
                     University’s Design School.</p>
                 </div>
-                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-tl-2xl rounded-br-2xl">
-                  <h4 className="font-bold relative bottom-1">PROJECT-BASED LEARNING</h4>
-                  <p className="relative bottom-2 font-semibold">Our lessons connect what our students learn to <br/> 
-                 real-world scenarios. Students learn with the same<br/> 
-                 approach they will eventually use in their hobbies,<br/> 
-                 passions, and careers. This ingrains essential <br/>
-                 problem-solving techniques within them early on,<br/>drastically increasing their chances of success in
-                 <br/>whatever career they choose once their education<br/> has completed.</p>
-                </div>
-                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl w-fit m-auto">
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl w-fit">
                   <h4 className="font-bold text-center">EXPERIENCED, AND FRIENDLY INSTRUCTORS</h4>
                   <p className="font-semibold">All our instructors are STEM (Science, Technology,<br/> Engineering, Mathematics) graduates
                   who are<br/> passionate about what they do. Our work culture<br/> ensures that we attract fun-loving,
                   down-to-earth<br/> instructors who work to make learning fun,<br/> inspiring, and productive for our
                    students.</p>
                 </div>
+                <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
+                  <h4 className="font-bold">PROJECT-BASED LEARNING</h4>
+                  <p className="relative bottom-1 font-semibold">Our lessons connect what our students learn to <br/> 
+                 real-world scenarios. Students learn with the same<br/> 
+                 approach they will eventually use in their hobbies,<br/> 
+                 passions, and careers. This ingrains essential <br/>
+                 problem-solving techniques within them early on,<br/>drastically increasing their chances of success in
+                 <br/>whatever career they choose once their education<br/> has completed.</p>
+                </div>
               </div>
               </div>
         </section>
-      <section className="flex justify-center p-7 bg-slate-200">
-        <div className="flex flex-col gap-5">
+      <Element className="flex justify-center p-7 bg-slate-200 m-auto" name="Training">
+        <h3 className="text-black font-bold text-2xl ">OUR PACKAGES</h3>
+        <div className="flex flex-col gap-5 pt-20">
           <div className="flex gap-6 sm:flex sm:flex-col">
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
              data-aos="flip-down"
@@ -217,7 +218,7 @@ const Home = ({
             </div>
           </div>
         </div>
-      </section>
+      </Element>
       <Element className="w-full bg-slate-500 m-auto p-10 mb-4" name="about">
           <h1 className="mb-5 font-bold text-black text-3xl text-center">ABOUT US </h1>
           <p className="leading-relaxed text-black font-semibold text-center">At IdeaLab Academy, we are saddled with the responsibility of empowering the next generation of<br/>
