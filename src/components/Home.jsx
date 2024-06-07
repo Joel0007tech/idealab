@@ -127,7 +127,7 @@ const Home = ({
              Co-founder Microsoft---</span> 
               </p>
               <div className="mt-10 p-9 bg-slate-500 w-full justify-center">
-                <h5 className="text-white text-center text-xl">Why Idealab?</h5>
+                <h5 className="text-center text-2xl font-bold">Why Idealab?</h5>
                 <div className="flex flex-row gap-3 justify-center pt-4 sm:flex sm:flex-col">
                 <div className="flex flex-col p-5 bg-yellow-700 gap-3 mt-4 border-black rounded-b-2xl">
                   <h4 className="font-bold">DESIGN THINKING APPROACH</h4>
