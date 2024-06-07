@@ -58,7 +58,7 @@ const Home = ({
           ))}
         </ul>
       </nav>
-      <div className='sm:block sm:w-full hidden overflow-hidden sm:bg-slate-300'>
+      <div className='sm:block sm:w-full hidden overflow-hidden sm:bg-slate-500'>
             <div className='flex p-3 justify-between'>
             <img src={logo} alt="logo" className="h-[40px] w-[60px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
@@ -102,18 +102,18 @@ const Home = ({
             sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             and Entrepreneurship</span></p>
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-96">
               <img src={techImg} alt="tech-image" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl text-yellow-500 bg-black p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Technology</h3>
             <p className="text-md mt-1">Our first step is giving kids the tech skills required to be up to date in a fast changing world</p>
             </div>
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 pb-4 w-fit m-auto">
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 pb-4 w-fit m-auto sm:w-96">
               <img src={innovasionImg} alt="innovationimage" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl text-white bg-yellow-700 p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-6">Innovation</h3>
             <p className="text-md mt-1">We instill in our students the ability to harness their skills and use them to solve societal problems</p>
             </div>
             </div>
-            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto"> 
+            <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-96"> 
             <img src={entImg} alt="entrepreneurimage" className="m-auto" style={circle.image}/>
               <h3 className="font-semibold text-xl bg-white p-2 pr-5 pl-5 pb-2 pt-1 border rounded-md w-fit m-auto mt-4">Entrepreneurship</h3>
             <p className="text-md mt-1">We train them to develop the entrepreneurial skill-set and mindset that will enable
@@ -230,12 +230,12 @@ const Home = ({
            environment that would inspire young minds to explore their interests and unlock their full potential.</p>
            <h5 className="mt-10 text-black font-semibold text-center text-xl">Our Courses;</h5>
            <div className="mt-5 gap-3 flex flex-row justify-center sm:flex sm:flex-col">
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">HTML/CSS</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">PYTHON</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">SCRATCH CODING</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">GRAPHIC DESIGN</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">CHESS</p>
-           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">DIGITAL ART</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">HTML/CSS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">PYTHON</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">SCRATCH CODING</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">GRAPHIC DESIGN</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">CHESS</p>
+           <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white sm:m-auto">DIGITAL ART</p>
            </div>
       </Element>
       <Element className="bg-slate-400 p-20 bottom-0 w-full sm:p-2 sm:bg-slate-600" name="contact">
