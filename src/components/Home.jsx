@@ -227,7 +227,7 @@ const Home = ({
           to make quality education accessible to all, we set out to build an engaging, affordable, and inclusive learning<br/>
            environment that would inspire young minds to explore their interests and unlock their full potential.</p>
            <h5 className="mt-10 text-black font-semibold text-center text-xl">Our Courses;</h5>
-           <div className="mt-5 gap-3 flex flex-row justify-center">
+           <div className="mt-5 gap-3 flex flex-row justify-center sm:flex sm:flex-col">
            <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">HTML/CSS</p>
            <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">PYTHON</p>
            <p className="p-3 border-none rounded-md w-fit font-bold text-md pl-5 pr-5 bg-white">SCRATCH CODING</p>
