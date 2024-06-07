@@ -31,7 +31,7 @@ const Home = ({
 
   return (
     <div>
-      <nav className="flex justify-around p-7 sm:hidden bg-slate-300 sm:bg-slate-300" >
+      <nav className="flex justify-around p-7 sm:hidden bg-slate-300" >
         <img src={logo} alt="logo" className="h-[70px] w-[100px]" data-aos="zoom-in"
           data-aos-duration="2000"/>
           <p className="text-yellow-300 font-extrabold relative top-4 right-52 text-lg">idea
@@ -58,7 +58,7 @@ const Home = ({
           ))}
         </ul>
       </nav>
-      <div className='sm:block sm:w-full hidden overflow-hidden'>
+      <div className='sm:block sm:w-full hidden overflow-hidden sm:bg-slate-300'>
             <div className='flex p-3 justify-between'>
             <img src={logo} alt="logo" className="h-[40px] w-[60px]"  data-aos="zoom-in"
           data-aos-duration="2000"/>
@@ -83,9 +83,9 @@ const Home = ({
       </section>
       <section className="pt-3 bg-slate-200">
         <div className="text-center">
-          <h3 className="text-2xl font-bold">It is time to prepare your kids for the digital age</h3>
-          <h4 className="text-xl font-semibold">Empower the Next Generation of Creators and Problem-Solvers</h4>
-          <p className="leading-relaxed pt-2 text-md">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
+          <h3 className="text-2xl font-bold sm:font-semibold sm:text-lg">It is time to prepare your kids for the digital age</h3>
+          <h4 className="text-xl font-semibold sm:text-md">Empower the Next Generation of Creators and Problem-Solvers</h4>
+          <p className="leading-relaxed pt-2 text-md sm:text-sm">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
           next generation. We believe that skill acquisition and the traditional school system can go hand-in-hand.<br/> 
           Currently, we offer courses like Python coding, HTML/CSS, Scratch coding, graphic design, Digital Art, Entrepreneurship,<br/>
           Chess and monopoly, and creative writing. Our classes include weekend coding courses, holiday coding camps and STEM workshops
@@ -94,10 +94,12 @@ const Home = ({
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
           <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
            and create value. Our model is anchored on a three-pronged approach of <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
-            rounded-md cursor-pointer sm:p-3 sm:mt-3">
+            rounded-md cursor-pointer sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             Technology</span> 
-           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-3 sm:mt-3">Innovation
-           </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-3 sm:mt-3">
+           <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-2 sm:pl-2 sm:pr-2
+            sm:relative sm:top-2">Innovation
+           </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer
+            sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             and Entrepreneurship</span></p>
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
             <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto">
