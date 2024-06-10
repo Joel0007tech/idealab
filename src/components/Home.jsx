@@ -97,7 +97,7 @@ const Home = ({
             rounded-md cursor-pointer sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             Technology</span> 
            <span className="text-white bg-yellow-700 p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer sm:p-2 sm:pl-2 sm:pr-2
-            sm:relative sm:top-2">Innovation
+            sm:relative sm:top-2 2xl:block sm:hidden">Innovation
            </span><br className="2xl:hidden sm:block"/><span className="bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer
             sm:p-2 sm:pl-2 sm:pr-2 sm:relative sm:top-2">
             and Entrepreneurship</span></p>
