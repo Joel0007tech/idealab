@@ -81,7 +81,7 @@ const Home = ({
           ICT For kids Training Programs
         </h3>
       </section>
-      <section className="pt-3 bg-slate-200">
+      <section className="pt-3 bg-slate-200 sm:p-3">
         <div className="text-center">
           <h3 className="text-2xl font-bold sm:font-semibold sm:text-md">It is time to prepare your kids for the digital age</h3>
           <h4 className="text-xl font-semibold sm:text-lg">Empower the Next Generation of Creators and Problem-Solvers</h4>
@@ -289,7 +289,7 @@ const Home = ({
         </ul>
        </div>
      <div className="flex flex-col">
-      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">OUR COURSES</h3>
+      <h3 className="text-3xl font-bold text-white text-center sm:text-lg">OUR PACKAGES</h3>
       <div className="flex flex-col gap-6 pt-3" 
       data-aos="fade-up"
           data-aos-duration="1000">
