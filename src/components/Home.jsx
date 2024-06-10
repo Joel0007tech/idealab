@@ -93,15 +93,16 @@ const Home = ({
           we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
           <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
-           and create value. Our model is anchored on a three-pronged approach of <em> <strong>TECHNOLOGY, INNOVATION & ENTREPRENEURSHIP.</strong></em><br className="2xl:hidden sm:block"/>
-            <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
+           and create value. Our model is anchored on a three-pronged approach of <em className="2xl:hidden sm:block"> <strong>TECHNOLOGY, INNOVATION & ENTREPRENEURSHIP.</strong></em></p>
+           {/* <br className="2xl:hidden sm:block"/> */}
+            {/* <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
             rounded-md cursor-pointer sm:p-2 sm:pl-2 sm:pr-2 sm:mt-6 sm:hidden">
             Technology</span> <br className="2xl:hidden sm:block"/>
            <span className="text-white 2xl:bg-yellow-700 p-1 pt-0 pr-2 pl-2 2xl:border 2xl:rounded-md ml-1 cursor-pointer sm:p-2 sm:pl-2 sm:pr-2
             sm:mt-3 sm:hidden">Innovation
            </span><br className="2xl:hidden sm:block"/><span className="2xl:bg-white p-1 pt-0 pr-2 pl-2 border rounded-md ml-1 cursor-pointer
             sm:p-2 sm:pl-2 sm:pr-2 sm:mt-3 sm:hidden">
-            and Entrepreneurship</span></p>
+            and Entrepreneurship</span></p> */}
             <div className="grid grid-cols-2 justify-center mt-5 sm:flex sm:flex-col sm:gap-2">
             <div className="flex flex-col gap-3 border rounded-md bg-slate-300 mt-3 p-4 pt-6 w-fit m-auto sm:w-80">
               <img src={techImg} alt="tech-image" className="m-auto" style={circle.image}/>
