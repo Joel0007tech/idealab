@@ -77,14 +77,14 @@ const Home = ({
               }
         </div>
       <section>
-        <h3 className="bg-black w-full sm:w-[300px] p-3 text-center m-auto font-bold text-white text-2xl sm:text-lg">
+        <h3 className="bg-black w-full sm:w-full p-3 text-center m-auto font-bold text-white text-2xl sm:text-lg">
           ICT For kids Training Programs
         </h3>
       </section>
       <section className="pt-3 bg-slate-200 sm:p-3">
         <div className="text-center">
-          <h3 className="text-2xl font-bold sm:font-semibold sm:text-md">It is time to prepare your kids for the digital age</h3>
-          <h4 className="text-xl font-semibold sm:text-lg">Empower the Next Generation of Creators and Problem-Solvers</h4>
+          <h3 className="text-2xl font-bold sm:font-semibold sm:text-md sm:mt-3">It is time to prepare your kids for the digital age</h3>
+          <h4 className="text-xl font-semibold sm:text-lg sm:mt-3">Empower the Next Generation of Creators and Problem-Solvers</h4>
           <p className="leading-relaxed pt-2 text-md sm:text-sm">IdeaLab Academy is Nigeria’s leading STEM education institute providing sustainable skills to the <br/> 
           next generation. We believe that skill acquisition and the traditional school system can go hand-in-hand.<br/> 
           Currently, we offer courses like Python coding, HTML/CSS, Scratch coding, graphic design, Digital Art, Entrepreneurship,<br/>
@@ -92,7 +92,7 @@ const Home = ({
           From the age of 5,<br/>
           we believe the seed of the next big thing in technology and innovation can be planted and nurtured for a sustainable future.</p>
           <h5 className="font-semibold text-xl pt-3">Our Approach</h5>
-          <p className="text-md">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
+          <p className="text-md sm:text-sm sm:mt-3 sm:pb-3">We believe that it is not enough to learn skills. Our students should be able to use their skills to innovate<br/>
            and create value. Our model is anchored on a three-pronged approach of <em className="2xl:hidden sm:block"> <strong>TECHNOLOGY, INNOVATION & ENTREPRENEURSHIP.</strong></em></p>
            {/* <br className="2xl:hidden sm:block"/> */}
             {/* <span className="text-yellow-500 bg-black p-1 pt-0 pr-2 pl-2 border
