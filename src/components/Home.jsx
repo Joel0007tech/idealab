@@ -1,6 +1,8 @@
 import {React, useState} from "react";
 import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
+import { AiFillHtml5 } from "react-icons/ai";
+import { IoLogoPython } from "react-icons/io";
 import { Element } from 'react-scroll';
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import firstImage from "../assets/first idealab.jpg";
@@ -159,6 +161,19 @@ const Home = ({
               </div>
               </div>
         </section>
+        <Element name="curses">
+          <h3 className="text-center font-bold text-2xl">OUR COURSES</h3>
+          <div className="flex flex-row justify-center m-auto gap-3">
+            <div className="flex flex-col gap-3 p-4 bg-slate-500 border rounded-lg">
+            <AiFillHtml5 className="w-24 h-24" style={circle}/>
+            <p className="text-center font-bold">HTML</p>
+            </div>
+            <div className="flex flex-col gap-3 p-4 bg-slate-500 border rounded-lg">
+            <IoLogoPython className="w-24 h-24"/>
+            <p className="text-center font-bold">PYTHON</p>
+            </div>
+          </div>
+          </Element>
       <Element className="p-7 bg-slate-200" name="Training">
         <h3 className="text-black font-bold text-2xl text-center">OUR PACKAGES</h3>
         <div className="flex flex-col gap-5 pt-10">

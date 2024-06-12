@@ -1,7 +1,7 @@
 
 export const NavLinks = [
     {destination: '/', text: "Home"},
-    {destination: 'Courses', text: "Our Courses"},
+    {destination: 'courses', text: "Our Courses"},
     {destination: 'Training', text: "Training Packages"},
     {destination: 'about', text: "About Us"},
     {destination: 'contact', text: "Contact Us"},
