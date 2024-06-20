@@ -3,6 +3,7 @@ import { NavLinks, company} from ".";
 import { Link as ScrollLink } from "react-scroll";
 import { AiFillHtml5 } from "react-icons/ai";
 import { IoLogoPython } from "react-icons/io";
+import { SiScratch } from "react-icons/si";
 import { Element } from 'react-scroll';
 import logo from "../assets/WhatsApp Image 2023-11-03 at 9.00.00 PM.jpeg";
 import firstImage from "../assets/first idealab.jpg";
@@ -161,16 +162,26 @@ const Home = ({
               </div>
               </div>
         </section>
-        <Element name="curses">
+        <Element name="courses">
           <h3 className="text-center font-bold text-2xl">OUR COURSES</h3>
-          <div className="flex flex-row justify-center m-auto gap-3">
-            <div className="flex flex-col gap-3 p-4 bg-slate-500 border rounded-lg">
-            <AiFillHtml5 className="w-24 h-24" style={circle}/>
-            <p className="text-center font-bold">HTML</p>
+          <div className="flex flex-col justify-center gap-3 p-10">
+            <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit">
+            <AiFillHtml5 className="w-24 h-24"/>
+            <div className="flex flex-col">
+            <h3 className="text-center font-bold">HTML</h3>
             </div>
-            <div className="flex flex-col gap-3 p-4 bg-slate-500 border rounded-lg">
+            </div>
+            <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit mr-28">
             <IoLogoPython className="w-24 h-24"/>
-            <p className="text-center font-bold">PYTHON</p>
+            <div className="flex flex-col">
+            <h3 className="text-center font-bold">PYTHON </h3>
+            </div>
+            </div>
+            <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit" >
+              <SiScratch className="w-24 h-24"/>
+              <div className="flex flex-col">
+              <h3 className="text-center font-bold">SCRATCH </h3>
+              </div>
             </div>
           </div>
           </Element>
