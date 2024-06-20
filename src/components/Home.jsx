@@ -166,21 +166,42 @@ const Home = ({
           <h3 className="text-center font-bold text-2xl">OUR COURSES</h3>
           <div className="flex flex-col justify-center gap-3 p-10">
             <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit">
-            <AiFillHtml5 className="w-24 h-24"/>
-            <div className="flex flex-col">
+            <AiFillHtml5 className=" w-60 h-60"e/>
+            <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold">HTML</h3>
+            <p>HyperText Markup Language (HTML) is the standard markup language for documents<br/>
+             designed to be displayed in a web browser. It defines the content and structure<br/>
+            of web content. It is often assisted by technologies such as Cascading Style Sheets<br/>
+            and scripting languages such as JavaScript.</p>
+            <a href="http://" className="bg-black text-white font-semibold p-2 pl-4 pr-4 border rounded-md w-fit m-auto 
+            border-none cursor-pointer hover:bg-slate-50 hover:text-black">View More</a>
             </div>
             </div>
             <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit mr-28">
-            <IoLogoPython className="w-24 h-24"/>
-            <div className="flex flex-col">
-            <h3 className="text-center font-bold">PYTHON </h3>
+            <IoLogoPython className=" w-60 h-60"e/>
+            <div className="flex flex-col gap-5 p-5">
+            <h3 className="text-center font-bold">PYTHON PROGRAMMING</h3>
+            <p>Python is a high-level, general-purpose programming language. Its design<br/>
+            philosophy emphasizes code readability with the use of significant indentation.<br/>
+            Python is dynamically typed and garbage-collected. It supports multiple programming<br/>
+            paradigms, including structured, object-oriented and functional programming. It is<br/>
+            often described as a "batteries included" language due to its comprehensive standard library.</p>
+            <a href="http://" className="bg-black text-white font-semibold p-2 pl-4 pr-4 border rounded-md w-fit m-auto 
+            border-none cursor-pointer hover:bg-slate-50 hover:text-black">View More</a>
             </div>
             </div>
             <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit" >
-              <SiScratch className="w-24 h-24"/>
-              <div className="flex flex-col">
-              <h3 className="text-center font-bold">SCRATCH </h3>
+              <SiScratch className=" w-60 h-60"e/>
+              <div className="flex flex-col gap-5 p-5">
+              <h3 className="text-center font-bold">SCRATCH PROGRAMMING</h3>
+              <p>Scratch is a high-level, block-based visual programming language and<br/>
+               website aimed primarily at children as an educational tool, with a target<br/>
+                audience of ages 8 to 16.[8] Users on the site can create projects on the<br/>
+                website using a block-like interface. Scratch was conceived and designed<br/>
+                through collaborative National Science Foundation grants awarded to Mitchel<br/>
+               Resnick and Yasmin Kafai.</p>
+               <a href="http://" className="bg-black text-white font-semibold p-2 pl-4 pr-4 border rounded-md w-fit m-auto 
+               border-none cursor-pointer hover:bg-slate-50 hover:text-black">View More</a>
               </div>
             </div>
           </div>
