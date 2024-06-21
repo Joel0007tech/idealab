@@ -169,7 +169,7 @@ const Home = ({
             <AiFillHtml5 className="w-60 h-60 sm:w-28 sm:h-28 sm:m-auto"/>
             <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold text-xl">HTML</h3>
-            <p className="font-semibold"><em>HyperText Markup Language (HTML) is the standard markup<br/> language for documents
+            <p className="font-semibold sm:text-center"><em>HyperText Markup Language (HTML) is the standard markup<br/> language for documents
              designed to be displayed in a web<br/> browser. It defines the content and structure
             of web content.<br/> It is often assisted by technologies such as Cascading<br/> Style Sheets
             and scripting languages such as JavaScript.</em></p>
@@ -182,7 +182,7 @@ const Home = ({
             <IoLogoPython className="w-60 h-60 sm:w-28 sm:h-28 sm:m-auto"/>
             <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold text-xl">PYTHON PROGRAMMING</h3>
-            <p className="font-semibold"><em>Python is a high-level, general-purpose programming<br/> language. Its design
+            <p className="font-semibold sm:text-center"><em>Python is a high-level, general-purpose programming<br/> language. Its design
             philosophy emphasizes code readability with the use<br/> of significant indentation.
             Python is dynamically typed and<br/> garbage-collected. It supports multiple programming
             paradigms,<br/> including structured, object-oriented and functional programming.<br/> It is
@@ -196,7 +196,7 @@ const Home = ({
               <SiScratch className="w-60 h-60 sm:w-28 sm:h-28 sm:m-auto"/>
               <div className="flex flex-col gap-5 p-5">
               <h3 className="text-center font-bold text-xl">SCRATCH PROGRAMMING</h3>
-              <p className="font-semibold"><em>Scratch is a high-level, block-based visual programming language<br/> and
+              <p className="font-semibold sm:text-center"><em>Scratch is a high-level, block-based visual programming language<br/> and
                website aimed primarily at children as an<br/> educational tool, with a target
                 audience of ages 8 to 16.<br/> Users on the site can create projects on the
                 website using<br/> a block-like interface. Scratch was conceived and designed<br/>
