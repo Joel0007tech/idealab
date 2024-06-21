@@ -178,7 +178,7 @@ const Home = ({
             border-none cursor-pointer hover:bg-slate-50 hover:text-black">View More</a>
             </div>
             </div>
-            <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit mr-28 sm:flex sm:flex-col">
+            <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit 2xl:mr-28 sm:m-auto sm:flex sm:flex-col">
             <IoLogoPython className=" w-60 h-60"e/>
             <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold text-xl">PYTHON PROGRAMMING</h3>
