@@ -166,7 +166,7 @@ const Home = ({
           <h3 className="text-center font-bold text-2xl pt-7">OUR COURSES</h3>
           <div className="flex flex-col justify-center gap-3 p-10">
             <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit sm:flex sm:flex-col">
-            <AiFillHtml5 className=" w-60 h-60 sm:w-28 sm:h-28 sm:m-auto"/>
+            <AiFillHtml5 className="2xl:w-60 2xl:h-60 sm:w-28 sm:h-28 sm:m-auto"/>
             <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold text-xl">HTML</h3>
             <p className="font-semibold"><em>HyperText Markup Language (HTML) is the standard markup<br/> language for documents
@@ -179,7 +179,7 @@ const Home = ({
             </div>
             </div>
             <div className="flex flex-row gap-3 p-4 bg-slate-500 border rounded-lg justify-center m-auto w-fit 2xl:mr-28 sm:m-auto sm:flex sm:flex-col">
-            <IoLogoPython className=" w-60 h-60 sm:w-28 sm:h-28 sm:m-auto"/>
+            <IoLogoPython className="2xl:w-60 2xl:h-60 sm:w-28 sm:h-28 sm:m-auto"/>
             <div className="flex flex-col gap-5 p-5">
             <h3 className="text-center font-bold text-xl">PYTHON PROGRAMMING</h3>
             <p className="font-semibold"><em>Python is a high-level, general-purpose programming<br/> language. Its design
