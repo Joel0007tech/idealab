@@ -242,7 +242,7 @@ const Home = ({
             </div>
           </div>
           <div className="flex gap-6 sm:flex sm:flex-col justify-center">
-            <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl"
+            {/* <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3  bg-white rounded-2xl"
              data-aos="flip-up"
           data-aos-duration="2000">
              <h3 className="text-xl text-black font-bold">Languages</h3>
@@ -253,7 +253,7 @@ const Home = ({
              <p className="m-auto">✔ Yoruba</p>
              <p className="m-auto">______________</p>
              <a href="http://" className="m-auto hover:text-yellow-500">{cardLink}</a>
-            </div>
+            </div> */}
             <div className="flex flex-col hover:border-[7px] border-solid border-slate-300 p-8 gap-3 bg-white rounded-2xl"
              data-aos="flip-up"
           data-aos-duration="2000">
@@ -373,7 +373,7 @@ const Home = ({
         <HiMail className="text-green-900 text-3xl"/>
       <a href="mailto:idealabacademy@gmail.com" className="text-white font-normal hover:underline text-[19px] relative bottom-1 sm:text-sm
       sm:relative sm:top-1">
-        idealabacademy@gmail.com
+        info@idealabacademy.com
         </a>
       </div>
       </div>
